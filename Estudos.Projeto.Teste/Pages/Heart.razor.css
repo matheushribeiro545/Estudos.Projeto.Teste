@@ -1,0 +1,95 @@
+﻿/* Topo com imagem de fundo e degradê */
+header {
+    height: 300px;
+    background-size: cover;
+    /* Faz com que a imagem fique fixa */
+    background: url('https://cdn.pixabay.com/photo/2021/08/27/18/50/water-6579313_1280.jpg') no-repeat fixed center center;
+    position: relative; /* Para posicionar o degradê */
+    /* Centraliza o conteúdo no header */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+/* Degradê para a transição suave da imagem ao texto */
+header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), #121212); /* Degradê que escurece a imagem ao rolar */
+}
+
+/* Estilo do título (h1) */
+header h1 {
+    font-family: Impact, fantasy;
+    position: relative;
+    z-index: 2; /* Garante que o título fique sobre o degradê */
+    color: #f4f4f4;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1.5s ease-in, transform 1.5s ease-in; /* Adiciona também uma transição de posição */
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: #f4f4f4;
+    transform: translateY(50px); /* Movemos o texto um pouco para baixo inicialmente */
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0); /* O texto "sobe" para sua posição original */
+}
+
+.container {
+    font-family: Bradley Hand, cursive;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+
+.text-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    background-color: #333; /* Fundo escuro para cada bloco */
+    color: #f5f5f5; /* Texto claro */
+}
+
+.text-block.left {
+    justify-content: flex-start;
+    margin-left: 0;
+    align-self: flex-start;
+}
+
+.text-block.right {
+    justify-content: flex-end;
+    margin-right: 0;
+    align-self: flex-end;
+}
+
+.image {
+    width: 340px;
+    height: 300px;
+    margin-left: 10px;
+    border-radius: 25%; /* Opcional: formato circular */
+    border: 2px solid #f5f5f5; /* Borda clara ao redor da imagem */
+}
+
+.text-content {
+    max-width: 80%;
+    font-size: 16px;
+    font-weight: bold;
+}

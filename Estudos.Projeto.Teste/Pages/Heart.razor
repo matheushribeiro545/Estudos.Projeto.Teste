@@ -1,0 +1,21 @@
+﻿@page "/Heart"
+@inject IJSRuntime JsRuntime
+
+<PageTitle>?????</PageTitle>
+
+<header>
+    <h1>Teste de página?</h1>
+</header>
+
+@* Todo: implementar o fade-in em cada bloco de texto *@
+<div class="container">
+    @foreach (var item in TextItems.Select((text, index) => new { text, index }))
+    {
+        <div class="text-block @(item.index % 2 == 0 ? "left" : "right")">
+            <div class="text-content">
+                @item.text
+            </div>
+            <img src="@ImageUrls[item.index]" alt="Imagem" class="image"/>
+        </div>
+    }
+</div>

@@ -1,0 +1,30 @@
+﻿@page "/"
+@inject IJSRuntime JsRuntime
+@inject NavigationManager Navigation
+
+<PageTitle>?????</PageTitle>
+
+<header>
+    <h1>Preparada para viver uma nova temporada?</h1>
+</header>
+
+<div class="container">
+    <div class="fade-in">
+        <p>
+            Olá Dona do Meu Coração.
+        </p>
+        <p>
+            Você desbloqueou uma nova etapa do jogo! <br/>
+            Está preparada para viver um novo nível cheio de emoções e alegria?
+        </p>
+        <p>
+            Clique no botão abaixo para iniciar a nova etapa e vivenciar momentos únicos.
+        </p>
+        <p>
+            ⚠Atenção⚠: risco de ficar com o status felicidade muito alto. Entre por sua conta e risco.
+        </p>
+    </div>
+    <div class="fade-in" style="height: 100vh;">
+        <button class="button-53" role="button" @onclick="GoToNextPage">Clique</button>
+    </div>
+</div>

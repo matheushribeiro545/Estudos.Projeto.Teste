@@ -1,13 +1,21 @@
 ﻿@page "/Heart"
 @inject IJSRuntime JsRuntime
 
-<PageTitle>?????</PageTitle>
+<PageTitle>PRONTO VIDAAA</PageTitle>
 
 <header>
-    <h1>Teste de página?</h1>
+    <h1>Eii minha vidaa!</h1>
+    <div>
+        Fiz esse site para contar um pouco da nossa história e tirar algumas risadas suas.
+    </div>
+    <div2>
+        Agradeço pela paciência que teve em esperar o moizin terminar o projeto.
+    </div2>
+    <div2>
+        Como forma de agradecimento, acesse o link "hyperlink" para receber presentinho bônus.
+    </div2>
 </header>
 
-@* Todo: implementar o fade-in em cada bloco de texto *@
 <div class="container">
     @foreach (var item in TextItems.Select((text, index) => new { text, index }))
     {
@@ -19,3 +27,60 @@
         </div>
     }
 </div>
+
+<body>
+<div class="container2">
+    Passamos por tantos momentos M A R A V I L H O S O S que confesso ficar perdido escolhendo as fotos rsrs.<br>
+    Mas é isso meu amor.<br><br>
+        
+    Eu te amo muito<br>
+    Você é incrível, me faz tão feliz e confiante.<br><br>
+
+    Teu sorriso ilumina minha vida.<br>
+    Teu olhar domina meus sentimentos e me traz paz, além de deixar o mor sem rumo e quebrado.<br>
+    Tuas palavras me deixam seguro e em paz.<br>
+    Sentir você é como um descanso naquela cama bem gostosa. Me deixa relaxado.<br><br>
+
+    São tantos sentimentos...<br><br>
+
+    Nunca vou esquecer das promessas que Deus me fez, onde esperei por muito tempo, onde me foi prometido que um dia minha alegria iria aparecer e a noite de inverno acabaria.<br>
+    Tinha dias que achava que essas promessas não se cumpriria. O frio era muito intenso e a noite me trazia medo.<br><br>
+        
+    Mas aquele dia, onde tocava acordeon no meu canto, vi aquela linda moça que encantou meus olhos.<br>
+    Lembro do seu semblante doce e suave, a simplicidade que dominava, e continua dominando, meu coração.<br><br>
+
+    Quando começamos a conversar, fui enxergando que não era coisa da minha cabeça: Além de ser muito linda e uma serva de Deus incrível, a Emily tem uma sinceridade que admiro muito, com um coração exemplar para mim.<br>
+    A cada dia conversando, fui vendo que era Deus na minha vida e que o inverno estava passando...<br><br>
+        
+    Era tempo do sol raiar na minha vida<br><br>
+        
+    As palavras, os sinais, tudo ia se encaixando de forma que me deixava cada dia mais surpreendido.<br>
+    Mas a palavra que nunca vou esquecer, é aquele Salmos 23 no dia 05/11/2023...<br><br>
+        
+    "Nenhuma muralha vai parar no teu caminho. (teve muito mais coisas, mas o moizin esqueceu kkkk)"<br><br>
+        
+    Depois disso, a história que já havíamos começado saiu do papel e foi inserida num livro, que a cada dia vai ficando mais lindo.<br>
+    Cada dia é uma nova etapa, onde temos novas aventuras, brincadeiras, conversas tensas e sérias, outras descontraídas, novos aprendizados. Tudo para nos tornarmos melhores.<br>
+    A cada etapa que passamos, mais feliz eu fico.<br>
+    A cada dia você fica mais linda e mais incrível. Uma MARAVILHOSA.<br><br>
+        
+    E é isso meu amor.<br>
+    Espero ser um companheiro incrível para toda a vida, assim como você é pra mim.<br>
+    Quero que no fim da nossa vida, você possa olhar para a sua história e agradecer a Deus por ter preparado um homem incrível pra ti.<br>
+    E como eu disse muitas vezes e vou continuar dizendo: Por ti, passo qualquer coisa. Estou contigo pra tudo.<br><br>
+    
+    Fique com algumas imagens aleatórias nossas.<br><br><br>
+        
+        
+    Com muito amor e carinho.<br>
+    Matheus, O moizin da Emily.
+</div>
+
+<div class="image-container">
+    @foreach (var image in ImageRandom)
+    {
+    <img src="@image" alt="Imagem Aleatória" class="random-image"
+         style="top: @random.Next(0, 80)%; left: @random.Next(0, 80)%; transform: rotate(@random.Next(-30, 30)deg);" />
+    }
+</div>
+</body>

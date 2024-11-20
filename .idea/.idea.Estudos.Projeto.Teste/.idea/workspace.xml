@@ -9,20 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c79239b7-528c-4301-ba6b-a1051ede1d60" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Estudos.Projeto.Teste/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Estudos.Projeto.Teste/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudos.Projeto.Teste/Estudos.Projeto.Teste.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos.Projeto.Teste/Estudos.Projeto.Teste.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudos.Projeto.Teste/Pages/Heart.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos.Projeto.Teste/Pages/Heart.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudos.Projeto.Teste/Pages/Heart.razor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos.Projeto.Teste/Pages/Heart.razor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudos.Projeto.Teste/Pages/Heart.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos.Projeto.Teste/Pages/Heart.razor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudos.Projeto.Teste/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos.Projeto.Teste/Pages/Home.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudos.Projeto.Teste/Pages/Home.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos.Projeto.Teste/Pages/Home.razor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudos.Projeto.Teste/wwwroot/clouds-3526558_1280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudos.Projeto.Teste/wwwroot/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos.Projeto.Teste/wwwroot/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudos.Projeto.Teste/wwwroot/icon-192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudos.Projeto.Teste/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos.Projeto.Teste/wwwroot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudos.Projeto.Teste/wwwroot/pexels-krisof-1252890.jpg" beforeDir="false" />
-    </list>
+    <list default="true" id="c79239b7-528c-4301-ba6b-a1051ede1d60" name="Changes" comment="Implementação de imagem e textos." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,8 +128,17 @@
       <workItem from="1731769161465" duration="5510000" />
       <workItem from="1731973204197" duration="5475000" />
       <workItem from="1732114231061" duration="8525000" />
-      <workItem from="1732126498207" duration="18012000" />
+      <workItem from="1732126498207" duration="18721000" />
     </task>
+    <task id="LOCAL-00001" summary="Implementação de imagem e textos.">
+      <option name="closed" value="true" />
+      <created>1732145875175</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732145875175</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,5 +147,7 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Implementação de imagem e textos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação de imagem e textos." />
   </component>
 </project>

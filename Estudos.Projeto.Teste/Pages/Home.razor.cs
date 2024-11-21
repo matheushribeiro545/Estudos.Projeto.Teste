@@ -16,6 +16,6 @@ public partial class Home : ComponentBase
     
     private void GoToNextPage()
     {
-        Navigation.NavigateTo("Estudos.Projeto.Teste/Heart");
+        Navigation.NavigateTo("/Heart");
     }
 }

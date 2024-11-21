@@ -43,8 +43,20 @@ jobs:
       - name: Publish .NET
         run: dotnet publish Estudos.Projeto.Teste/Estudos.Projeto.Teste.csproj -c:Release -o docs --nologo
         
-      - name: Copy 404.html
-          run: cp wwwroot/404.html docs/wwwroot/404.html
+      - name: Create 404 for SPA routing
+        run: |
+          echo '<!DOCTYPE html>
+          <html>
+          <head>
+              <meta http-equiv="refresh" content="0; url=./index.html" />
+          </head>
+          <body>
+              <script>
+                  var path = window.location.pathname;
+                  window.location.href = "/Estudos.Projeto.Teste/index.html#" + path;
+              </script>
+          </body>
+          </html>' > docs/wwwroot/404.html
         
       - name: Setup Pages
         uses: actions/configure-pages@v4

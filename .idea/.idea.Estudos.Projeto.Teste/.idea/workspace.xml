@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c79239b7-528c-4301-ba6b-a1051ede1d60" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/master.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/master.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Estudos.Projeto.Teste/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Estudos.Projeto.Teste/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudos.Projeto.Teste/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudos.Projeto.Teste/Pages/Home.razor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos.Projeto.Teste/Pages/Home.razor.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -9,7 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c79239b7-528c-4301-ba6b-a1051ede1d60" name="Changes" comment="Implementação de imagem e textos." />
+    <list default="true" id="c79239b7-528c-4301-ba6b-a1051ede1d60" name="Changes" comment="Implementação de imagem e textos.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Estudos.Projeto.Teste/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Estudos.Projeto.Teste/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudos.Projeto.Teste/Estudos.Projeto.Teste.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos.Projeto.Teste/Estudos.Projeto.Teste.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudos.Projeto.Teste/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos.Projeto.Teste/wwwroot/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +39,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bd1d5c50194fea68ff3559c160230b0ab50f5acf4ce3061bffd6d62958e2182/ExceptionDispatchInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Estudos.Projeto.Teste/wwwroot/css/bootstrap/bootstrap.min.css.map" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -128,7 +134,7 @@
       <workItem from="1731769161465" duration="5510000" />
       <workItem from="1731973204197" duration="5475000" />
       <workItem from="1732114231061" duration="8525000" />
-      <workItem from="1732126498207" duration="18721000" />
+      <workItem from="1732126498207" duration="21241000" />
     </task>
     <task id="LOCAL-00001" summary="Implementação de imagem e textos.">
       <option name="closed" value="true" />
@@ -144,6 +150,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

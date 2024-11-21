@@ -1,3 +1,0 @@
-﻿# Permitir que todas as rotas sejam redirecionadas para index.html
-include:
-  - _redirects

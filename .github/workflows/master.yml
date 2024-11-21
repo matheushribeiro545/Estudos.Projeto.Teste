@@ -43,6 +43,9 @@ jobs:
       - name: Publish .NET
         run: dotnet publish Estudos.Projeto.Teste/Estudos.Projeto.Teste.csproj -c:Release -o docs --nologo
         
+      - name: Copy 404.html
+          run: cp wwwroot/404.html docs/wwwroot/404.html
+        
       - name: Setup Pages
         uses: actions/configure-pages@v4
         

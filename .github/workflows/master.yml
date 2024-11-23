@@ -53,7 +53,8 @@ jobs:
           <body>
               <script>
                   var path = window.location.pathname;
-                  window.location.href = "/Estudos.Projeto.Teste/index.html#" + path;
+                  var repoName = "/Estudos.Projeto.Teste"; // Substitua pelo nome do repositório ou deixe vazio
+                  window.location.href = repoName + "/index.html#" + path;
               </script>
           </body>
           </html>' > docs/wwwroot/404.html

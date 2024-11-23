@@ -14,8 +14,4 @@
     <ItemGroup>
       <Folder Include="wwwroot\img\" />
     </ItemGroup>
-
-    <ItemGroup>
-      <Content Include=".github\workflows\master.yml" />
-    </ItemGroup>
 </Project>

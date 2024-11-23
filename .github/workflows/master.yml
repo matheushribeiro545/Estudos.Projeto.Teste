@@ -52,8 +52,14 @@ jobs:
           </head>
           <body>
               <script>
-                  var path = window.location.pathname;
-                  var repoName = "/Estudos.Projeto.Teste"; // Substitua pelo nome do repositório ou deixe vazio
+                  var path = window.location.pathname + window.location.search + window.location.hash;
+                  
+                  var repoName = "/Estudos.Projeto.Teste";
+                  
+                  if (path.startsWith(repoName)) {
+                    path = path.substring(repoName.length);
+                }
+        
                   window.location.href = repoName + "/index.html#" + path;
               </script>
           </body>

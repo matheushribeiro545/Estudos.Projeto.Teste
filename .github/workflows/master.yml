@@ -60,7 +60,7 @@ jobs:
                     path = path.substring(repoName.length);
                 }
         
-                  window.location.href = repoName + "/index.html#" + path;
+                  window.location.href = repoName + "/#" + path;
               </script>
           </body>
           </html>' > docs/wwwroot/404.html
